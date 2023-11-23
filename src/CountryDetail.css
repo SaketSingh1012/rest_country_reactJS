@@ -1,0 +1,67 @@
+/* CountryDetail.css */
+
+.country-detail {
+  margin: 2.5%;
+  padding: 0;
+  display: flex;
+  width: 95%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.flag {
+  width: 40%;
+  height: 100%;
+}
+
+.flag img {
+  margin-top: 10%;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+}
+
+.details {
+  margin-top: 5%;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main_content {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.content1 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.border {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.back-button {
+  width: 10%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
